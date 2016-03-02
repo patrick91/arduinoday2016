@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Area riservata"
+AuthUserFile /www/arduino.hcsslug.org/.htpasswd
+Require valid-user
