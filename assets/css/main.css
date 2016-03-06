@@ -229,16 +229,29 @@ max-width: 100%;
 }
 
 
-
-
-
-
-
+.has-arduino {
+    text-align: center;
+}
 
 
 .arduino_uno{
-  width:140%;
-  margin-left:-60%;
+    max-width: 60%;
+    margin-left: 0;
+    transform: rotate(-90deg);
+    transform-origin: center center;
+    width: 100%;
+    max-height: 320px;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .arduino_uno {
+        width:140%;
+        margin-left:-60%;
+        max-width: none;
+        transform: none;
+        max-height: none;
+    }
 }
 
 /*************************
